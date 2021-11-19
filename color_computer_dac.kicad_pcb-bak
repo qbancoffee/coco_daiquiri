@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -291,6 +291,16 @@
       (net 2 GND))
     (pad 20 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 20 +5V))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 0 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 7.5 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 6160FBED)
@@ -2071,6 +2081,37 @@
     (filled_polygon
       (pts
         (xy 130.403 92.886453) (xy 130.403 99.073) (xy 127.146579 99.073) (xy 126.053212 92.867664)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.66 104.1) (xy 122.97 104.1) (xy 123.59 105.32) (xy 122.25 106.03) (xy 121.22 104.42)
+        (xy 121.66 104.08)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 123.420217 105.266234) (xy 122.293927 105.862999) (xy 121.389602 104.449442) (xy 121.677468 104.227) (xy 122.892082 104.227)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer F.Mask) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 134.93 128.6) (xy 134.26 131.29) (xy 133.43 130.12) (xy 133.43 127.29) (xy 134.93 127.29)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 134.803 128.584422) (xy 134.203594 130.990992) (xy 133.557 130.079528) (xy 133.557 127.417) (xy 134.803 127.417)
       )
     )
   )

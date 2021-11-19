@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -291,6 +291,16 @@
       (net 2 GND))
     (pad 20 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 20 +5V))
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 0 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
+    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.wrl
+      (offset (xyz 7.5 0 -1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEE) (tstamp 6160FBED)
@@ -791,6 +801,11 @@
     (pad "" smd roundrect (at 0.75 -0.75 270) (size 1.21 1.21) (layers F.Paste) (roundrect_rratio 0.206612))
     (pad "" smd roundrect (at 0.75 0.75 270) (size 1.21 1.21) (layers F.Paste) (roundrect_rratio 0.206612))
     (model ${KISYS3DMOD}/Package_SO.3dshapes/HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/QSOP-16_3.9x4.9mm_P0.635mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
