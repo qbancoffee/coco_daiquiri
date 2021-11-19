@@ -1,4 +1,4 @@
-# coco_daiquiri
+# CoCo Daiquiri
 A drop in replacement board for the SC77527P DAC chip found in the Tandy CoCo's
 
 
