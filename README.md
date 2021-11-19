@@ -47,7 +47,7 @@ CoCo 3 with Daiquiri chip installed
 
 ## Ordering the board
 First Thing to do is clone this repository or download the latest release.
-- [Download the latest release](https://github.com/qbancoffee/coco_salt_replacement/releases/latest)<br>
+- [Download the latest release](place link here)<br>
 All the files you'll need are in the gerber folder.
 
 Many PCB manufacturers provide proprietary EDA software with nice and helpful features to help the user decrease the time and difficulty when designing a PCB. Unfortunately sometimes these programs will only allow you to order from that specific manufacturer. This is good for the manufacturer because it increases the odds that the person will order from them again because of the amount of time invested in learning to use that specific EDA program.
@@ -61,7 +61,7 @@ KiCAD has a bit of learning curve to it but once you are familiar with its quirk
 
 You can open the PCB design and create the gerber files yourself but I've already done that for the board so all you have to do is download the zip archive and upload it to your PCB manufacturer of choice. Click on the link below to download the gerber files.
 <BR>
-- [Download the gerber files](https://github.com/qbancoffee/coco_salt_replacement/raw/master/salt_replacement/salt_replacement/gerber/pepper_gerber.zip)
+- [Download the gerber files](https://github.com/qbancoffee/coco_daiquiri/raw/main/gerber/daiquiri_gerber.zip)
 
 There are a ton of PCB manufactures to choose from but recently I've been using [JLPCB](https://jlcpcb.com/) because the quality is good and they are well priced. JLPCB will even provide an automated online quote for pcb manufacturing and assembly. Once ordered they should arrive in the mail.
 Obviously you can use any PCB manufacturer you wish.
@@ -71,16 +71,16 @@ Surface mount components are difficult to solder onto a board by hand but are pe
 
 To order the components you'll need a Bill Of Materials or a BOM. I've included a BOM for the board in the repo and just like the gerber files, they will be in the repo once you download it. Click on the link below to download the BOM.
 <BR>
-- [View BOM for the PEPPER board](https://github.com/qbancoffee/coco_salt_replacement/blob/master/salt_replacement/salt_replacement/gerber/BOM.csv)
+- [View BOM for the Daiquiri board](https://github.com/qbancoffee/coco_daiquiri/raw/main/color_computer_dac_1.1.0_BOM.csv)
 
 The BOM includes LCSC part numbers so you can order them from JLCPCB, manufacturer part numbers so can search for the parts sold by other vendors, and other nice pieces of information to help you along.
 
 To assemble the board JLCPCB will need to know the part locations and orientations, this information is in the CPL file.
-- [View the CPL file](https://github.com/qbancoffee/coco_salt_replacement/blob/master/salt_replacement/salt_replacement/gerber/salt_replacement-all-pos.csv)  
+- [View the CPL file](https://github.com/qbancoffee/coco_daiquiri/raw/main/color_computer_dac-all_1.1.0_POS.csv)  
 
 - Go to jlcpcb and create an account if you don't have one.
 - Click on "Quote Now" and then click on "Add Gerber File"
-- Select "pepper_gerber.zip"
+- Select "daiquiri_gerber.zip
 - Scroll down and select "Free SMT Assembly for your PCB order"
 - Select "Assemble Top side" and agree to the terms and conditions.
 - Click on "Add BOM" and select "BOM.csv"
