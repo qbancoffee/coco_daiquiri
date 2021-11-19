@@ -14,6 +14,8 @@ controllers to the microprocessor.
 
 I designed it using available parts from JLCPCB to reduce assembly time and to bring down the cost.
 
+- [Download the latest release](https://github.com/qbancoffee/coco_daiquiri/releases/tag/1.1.0)<br>
+
 ## Goals
 - [x] Generate sound.
 - [x] Route sound.
@@ -47,7 +49,7 @@ CoCo 3 with Daiquiri chip installed
 
 ## Ordering the board
 First Thing to do is clone this repository or download the latest release.
-- [Download the latest release](place link here)<br>
+- [Download the latest release](https://github.com/qbancoffee/coco_daiquiri/releases/tag/1.1.0)<br>
 All the files you'll need are in the gerber folder.
 
 Many PCB manufacturers provide proprietary EDA software with nice and helpful features to help the user decrease the time and difficulty when designing a PCB. Unfortunately sometimes these programs will only allow you to order from that specific manufacturer. This is good for the manufacturer because it increases the odds that the person will order from them again because of the amount of time invested in learning to use that specific EDA program.
