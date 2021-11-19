@@ -22,10 +22,10 @@ I designed it using available parts from JLCPCB to reduce assembly time and to b
 - [x] Output sound data to save to cassette.
 
 All goals were met!!!<br>
-[Video testing the Daiquiri board with NitrOS9 and the Joey-HighRes](https://youtu.be/EgFfznWoyZE)
-[Video testing most of the functions of the Daiquiri](https://youtu.be/KFkKGCwIwdY)
-[Video saving a BASIC program using the Daiquiri board](https://youtu.be/1Up1ANTkjJg)
-[Video testing Rev 1 of the DAC replacement board AKA the Daiquiri ](https://youtu.be/-PZM2CGa1yw)
+- [Video testing the Daiquiri board with NitrOS9 and the Joey-HighRes](https://youtu.be/EgFfznWoyZE)
+- [Video testing most of the functions of the Daiquiri](https://youtu.be/KFkKGCwIwdY)
+- [Video saving a BASIC program using the Daiquiri board](https://youtu.be/1Up1ANTkjJg)
+- [Video testing Rev 1 of the DAC replacement board AKA the Daiquiri ](https://youtu.be/-PZM2CGa1yw)
 
 ## Layout
 ![Layout](images/daiquiri_layout.png?raw=true "Component layout")
@@ -38,11 +38,11 @@ All goals were met!!!<br>
 ![Side view](images/daiquiri_side.png?raw=true "Top view")
 <br>
 CoCo 3 with Daiquiri chip installed
-![Pepper installed](images/daiquiri_installed.jpg?raw=true "Pepper installed")
+![Daiquiri installed](images/daiquiri_installed.jpg?raw=true "Daiquiri installed")
 <br>
 
 ## Daiquiri and DAC
-![SALT and PEPPER](images/daiquiri_and_dac.jpg?raw=true "SALT and PEPPER")
+![Daiquiri and DAC](images/daiquiri_and_dac.jpg?raw=true "Daiquiri and DAC")
 
 
 ## Ordering the board
@@ -83,8 +83,8 @@ To assemble the board JLCPCB will need to know the part locations and orientatio
 - Select "daiquiri_gerber.zip
 - Scroll down and select "Free SMT Assembly for your PCB order"
 - Select "Assemble Top side" and agree to the terms and conditions.
-- Click on "Add BOM" and select "BOM.csv"
-- Click on "Add CPL file" and select "salt_replacement-all-pos.csv"
+- Click on "Add BOM" and select "color_computer_dac_1.1.0_BOM.csv"
+- Click on "Add CPL file" and select "color_computer_dac-all_1.1.0_POS.csv"
 - Click "Next" and go over the components and pricing.
 - Click "Next" or "Save to Cart".
   
