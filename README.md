@@ -1,12 +1,12 @@
 # CoCo Daiquiri
-A drop in replacement board for the SC77527P DAC chip found in the Tandy CoCo's
+A drop in replacement board for the SC77526P DAC chip found in the Tandy CoCo's
 
 
 
 
 - [How to order from JLCPCB](#Ordering-the-board)
 
-This board replaces the functionality of the SC77527P DAC chip found in the Tandy CoCo's. 
+This board replaces the functionality of the SC77526P DAC chip found in the Tandy CoCo's. 
 The DAC chip is one of the custom linear integrated circuits used in the Color Computer
 2 and 3. As its name implies, it contains a Digital to Analog Converter.
 This chip also contains a sound multiplexer and the circuitry necessary to interface the joystick
