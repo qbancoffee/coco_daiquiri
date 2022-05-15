@@ -3,7 +3,7 @@ A drop in replacement board for the SC77526P DAC chip found in the Tandy CoCo's
 
 
 
-
+- [View PDF version of the schematic](color_computer_dac.pdf)
 - [How to order from JLCPCB](#Ordering-the-board)
 
 This board replaces the functionality of the SC77526P DAC chip found in the Tandy CoCo's. 
